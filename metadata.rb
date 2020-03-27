@@ -1,0 +1,15 @@
+name 'bad_dates'
+maintainer 'Nick Rycar'
+maintainer_email 'nrycar@chef.io'
+license 'All Rights Reserved'
+description 'Installs/Configures bad_dates'
+version '0.1.0'
+
+issues_url 'http://github.com/ChefRycar/bad_dates/issues'
+source_url 'http://github.com/ChefRycar/bad_dates'
+
+depends 'build-essential'
+depends 'partial_search'
+depends 'poise'
+depends 'windows'
+depends 'compat_resource'
